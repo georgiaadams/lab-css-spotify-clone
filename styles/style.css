@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700");
+
 /*
 Colors:
 
@@ -6,3 +8,162 @@ Green: #00B172
 White: #FFF
 
 */
+
+body {
+  font-family: Roboto;
+}
+
+.spotify-logo {
+  width: 180px;
+  padding-left: 20px;
+}
+
+nav {
+  position: fixed;
+  width: 100%;
+  padding: 15px 15px 15px 15px; 
+  margin: 0px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  top: 0; 
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 390px;
+  padding-right: 30px;
+}
+
+h1 {
+  font-size: 50px;
+  text-align: center;
+  margin: auto auto 10px auto;
+}
+
+h4 {
+  font-size: 20px;
+  text-align: center;
+  width: 30%;
+  font-weight: 300;
+  margin: 10px auto auto auto;
+}
+
+.landing {
+  background-image: url("../images/landing.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 700px;
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  margin: 10px;
+
+}
+
+h2 {
+    font-size: 26px;
+}
+
+.medium-icon {
+    width: 90px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+    
+h2 {
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom: #00b172 solid;
+}
+
+.icons-container {
+    display: flex;
+    padding-bottom: 50px;
+    padding-top: 20px;
+}
+
+.icons-info {
+    text-align: center;
+    width: 200px;
+    padding-right: 55px;
+    padding-left: 80px;
+}
+
+.icons-container h3 {
+    color:  #00b172;
+
+}
+
+.more-info {
+    background-color: #00b172;
+    color: white;
+    padding-left: 80px;
+    display: flex;
+    align-items: baseline;
+    margin: 10px;
+}
+.more-info h2 {
+    font-size: 26px;
+    padding-top: 30px;
+    color: #fff;
+    border-bottom: #fff solid;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+  
+.info-container p {
+   width: 250px;
+  }
+
+.info-container {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.info-container h3 {
+    margin: 0.5px;
+    padding-top: 10px;
+}
+
+.last-images{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    position: absolute;
+    right: 150px;
+    width: 500px;
+}
+
+.spotify-icon{
+    width: 100px;
+    height:100px;
+}
+
+.spotify-app {
+width: 250px;
+
+}
+
+
+
+
+  .green {
+    color: #00b172;
+  }
+  
+  .white {
+    color: #fff;
+  }
